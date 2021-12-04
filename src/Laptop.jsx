@@ -32,7 +32,7 @@ const Laptop = ({ z, ...props }) => {
   const group = useRef();
   const { nodes, materials } = useGLTF("/laptop-v1.glb");
   return (
-    <group ref={group} {...props} dispose={null} scale={1}>
+    <group ref={group} {...props} dispose={null} scale={0.5}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]}>
           <group
