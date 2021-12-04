@@ -6,11 +6,11 @@ export default function Overlay() {
     <div className="Container">
       <div className="TopLeft">
         <h1>
-          I AM SO
+          Alexander
           <br />
-          COOL
+          Cannon
         </h1>
-        <p>Alexander Cannon</p>
+        <p>Web Developer Person</p>
       </div>
       <div className="BottomLeft">@TODO Make more stuff here </div>
       <div className="BottomRight">
