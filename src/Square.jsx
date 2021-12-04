@@ -15,7 +15,7 @@ const Square = ({ z, ...props }) => {
   const [data] = useState({
     x: THREE.MathUtils.randFloatSpread(2),
     y: THREE.MathUtils.randFloatSpread(height),
-    rY: Math.random() * Math.PI,
+    rY: Math.random() * Math.PI * 2,
   });
 
   useFrame(() => {
