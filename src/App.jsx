@@ -43,7 +43,7 @@ const App = ({ count = 10, depth = 80 }) => {
             />
           </EffectComposer>
         </Suspense>
-        <Suspense>
+        <Suspense fallback={null}>
           {Array.from({ length: 20 }, (_, i) => (
             <Paren z={1} key={`paren-${i}`} />
           ))}
