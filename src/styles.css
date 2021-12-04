@@ -15,6 +15,10 @@
   animation: fade 4s normal forwards ease-in-out;
 }
 
+.Canvas-background {
+  position: fixed;
+}
+
 .Container{
   font-size: 16px;
 }
@@ -42,7 +46,7 @@
 
 .BottomRight{
   position: absolute;
-  bottom: 5vw;
+  top: 50vw;
   right: 5vw;
   width: 35ch;
   max-width: 40%;

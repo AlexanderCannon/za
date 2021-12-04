@@ -10,33 +10,33 @@ export default function Overlay() {
           <br />
           Cannon
         </h1>
-        <p>Web Developer Person</p>
+        <h2>Web Developer Person</h2>
       </div>
-      <div className="BottomLeft">@TODO Make more stuff here </div>
+      <div className="BottomLeft">
+        If you'd like your website to do this sort of carry on, get in touch
+      </div>
       <div className="BottomRight">
-        Thing 1
-        <br />
-        Thing 2
-        <br />
-        Thing 3
-        <br />
-        Thing 4
-        <br />
-        Thing 5
-        <br />
-        Thing 6
-        <br />
-        Thing 7
-        <br />
-        Thing 8
-        <br />
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
+        <p>Thing</p>
       </div>
       <div className="Hamburger">
         <div />
         <div />
         <div />
       </div>
-      {/* <VelvetBanana /> */}
+      <div>
+        <p></p>
+      </div>
     </div>
   );
 }
