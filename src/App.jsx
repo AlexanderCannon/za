@@ -29,7 +29,7 @@ const App = ({ count = 10, depth = 80 }) => {
       <Canvas
         gl={{ alpha: false }}
         camera={{ near: 0.01, far: 110, fov: 30 }}
-        style={{ position: "fixed" }}
+        style={{ position: "fixed", top: 0 }}
       >
         <color attach="background" args={["#a8c7f7"]} />
         <spotLight position={[10, 10, 10]} intensity={1} />
