@@ -7,7 +7,9 @@ body,
   height:100%;
   font-family: "B612 mono-regular", monospace;
 }
-
+:root {
+  --color-white: #ffffff
+}
 @font-face {
   font-family: "B612 mono regular";
   src: url(../public/B612_Mono/B612Mono-Regular.ttf)(format(ttf));

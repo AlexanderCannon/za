@@ -31,7 +31,7 @@ const App = ({ count = 10, depth = 80 }) => {
         camera={{ near: 0.01, far: 110, fov: 30 }}
         style={{ position: "fixed", top: 0 }}
       >
-        <color attach="background" args={["#a8c7f7"]} />
+        {/* <color attach="background" args={["#a8c7f7"]} /> */}
         <spotLight position={[10, 10, 10]} intensity={1} />
         <Suspense fallback={null}>
           {Array.from({ length: 20 }, (_, i) => (
