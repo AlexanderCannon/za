@@ -28,7 +28,7 @@ const Square = ({ z, ...props }) => {
 
   const { nodes, materials } = useGLTF("/square.glb");
   return (
-    <group ref={group} {...props} dispose={null} scale={0.25}>
+    <group ref={group} {...props} dispose={null} scale={0.4}>
       <group ref={group} {...props} dispose={null}>
         <mesh
           geometry={nodes.Text.geometry}

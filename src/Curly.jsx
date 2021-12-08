@@ -28,7 +28,7 @@ const Curly = ({ z, ...props }) => {
 
   const { nodes, materials } = useGLTF("/curly.glb");
   return (
-    <group ref={group} {...props} dispose={null} scale={0.25}>
+    <group ref={group} {...props} dispose={null} scale={0.3}>
       <group ref={group} {...props} dispose={null}>
         <mesh
           geometry={nodes.Text.geometry}
